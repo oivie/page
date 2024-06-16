@@ -3456,6 +3456,11 @@ input, select, textarea {
 			/* text-transform: uppercase; */
 		}
 
+		#stickers {
+			width: 20%;
+		}
+	
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
@@ -3540,6 +3545,19 @@ input, select, textarea {
 			-ms-filter: blur(2px);
 			filter: blur(2px);
 		}
+
+		@keyframes moveLight {
+			0% {
+				background-position: top left;
+			}
+			50% {
+				background-position: bottom right;
+			}
+			100% {
+				background-position: top left;
+			}
+		}
+		
 
 /* Wrapper */
 
@@ -4126,6 +4144,7 @@ input, select, textarea {
 				}
 
 	}
+
 
 	@media screen and (max-width: 480px) {
 
